@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(24,25,29,255);
+    color:rgba(239,239,240,255)
+    ;
+    height: 800px;
+}
+
+.side-bar{
+    background-color: rgba(29,32,36,255);
+    height:955px;
+    flex-direction: column;
+}

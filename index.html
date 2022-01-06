@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+    <link rel="stylesheet" href="./style.css">
+
+
+
+    
+</head>
+<body>
+    
+
+
+
+    <div class="d-flex bd-highlight">
+        
+        <!-- sidebar section  -->
+        <div class=" flex-shrink-1 bd-highlight side-bar d-flex justify-content-between text-center">
+            <div><i class="fab fa-500px fa-2x" style="color:#7ac231; height: 85px;
+                padding-top: 25px;"></i></div>
+
+
+            <div style="height: 769px;">
+                <div >
+                    <div class="menu-items"><i class="fas fa-th-large fa-lg"></i></div>
+                </div>
+                <div >
+                    <div class="menu-items"><i class="fas fa-door-open fa-lg"></i></div>
+                </div>
+                <div >
+                    <div class="menu-items"><i class="fas fa-chart-bar fa-lg"></i></div>
+                    </div>
+                <div >
+                    <div class="menu-items"><i class="fas fa-calendar-alt fa-lg"></i></div>
+                </div>
+                <div >
+                    <div class="menu-items"><i class="fas fa-stopwatch fa-lg"></i></div>
+                </div>
+                <div >
+                    <div class="menu-items"><i class="fas fa-calculator fa-lg"></i></div>
+                </div>
+                <div >
+                    <div class="menu-items"><i class="fab fa-500px fa-lg"></i></div>
+                </div>
+                <div >
+                    <div class="menu-items"><i class="fas fa-cog fa-lg"></i></div>
+                </div>
+            </div>
+            <div class="px-3" style="height: 84px;">
+                <div class="messaging">
+                    <i class="fas fa-comments fa-2x"></i>
+                    <p>1</p>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar section  -->
+
+        <!-- rest item  -->
+        <div class="p-2 w-100 bd-highlight">
+
+
+            <div class="d-flex pt-4">
+
+
+
+                
+                <!-- middle section -->
+                  <div class="col-md-12 col-lg-8">
+
+
+                    <!-- first middle  -->
+                    <div class="col d-flex bd-highlight">
+                            <h4 class="pt-2 flex-fill bd-highlight">Dashboard</h4>
+
+
+                            <div class="p-2 flex-fill bd-highlight">
+
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control search-bar" placeholder="SEARCH" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <button class="btn" type="button" id="button-addon2"><i class="fas fa-search fa-lg"></i></button>
+                                  </div>
+                            </div>
+
+                            
+                            <div class="p-2 flex-fill bd-highlight d-flex justify-content-end">
+                                <button type="button" class="btn support-btn d-flex "><i class="fas fa-info-circle text-secondary" style="padding-right: 10px;
+                                    padding-top: 4px;"></i>Support</button>
+                                <div class="btn plus-btn"><i class="fas fa-plus fa-lg"></i></div>
+                            </div>
+                        
+                        
+                    </div>
+                    <!-- first middle  -->
+
+                      <div class="d-flex">
+
+
+                        <div class="col-lg-5 col-md-8">
+                            <button type="button" class="btn overview-btn">Overview :</button>
+                            <div class="col overview-board">
+                                <div class="py-4 d-flex">
+                                    <div class="col">
+                                        <h1>2,345</h1>
+                                    <p class="text-secondary">Transactions</p>
+                                    </div>
+                                    <div class="col text-center d-flex justify-content-end">
+                                        <div class=" wallets">
+                                            
+                                        <h1>5</h1>
+                                        <p class="text-white">Wallets</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="py-4">
+                                    <div class="col">
+                                    <p class="text-secondary">Current balance</p>
+                                    <span class="d-flex">
+                                        <h1>3.4330</h1>
+                                        <p class="text-secondary"> USD</p>
+                                    </span>
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="py-4 d-flex">
+                                    <div class="col-8">
+                                    <p class="text-white">
+                                        2.7995 EUR <span style="color:#7ac231">+12%</span>
+                                    </p>
+                                    </div>
+                                    <div class="col-4 text-center d-flex justify-content-end">
+                                        <button type="button" class="btn btn-buy">buy</button>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        
+
+
+                        <div class="  col-md-8  col-lg-7 my-wallets" style="    padding-right: 0px;">
+                            <div class="d-flex justify-content-between">
+                                <h6 style="padding-top:8px">My wallets</h6>
+                                <button type="button" class="btn wallets-btn">Add  Wallet</button>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="btc-monitor">
+                                    <div class="d-flex mt-2">
+                                        <p class="col" style="color:#466428">BTC</p>
+                                        <div class="currancy-icon text-center" style="height: 30px;width: 30px;"><i class="fab fa-bitcoin fa-lg" style="padding-top: 6px"></i></div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="col">Bitcoin</p>
+                                        <span class="col fs-3">0.224746</span>
+                                    </div>
+                                </div>
+                                <div class="ethereum-monitor">
+                                    <div class="d-flex mt-2">
+                                        <p class="col text-secondary" >ETH</p>
+                                        <div class="currancy-icon text-center" style="height: 30px;width: 30px;"><i class="fab fa-ethereum fa-lg" style="padding-top: 6px"></i></div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="col" >Ethereum</p>
+                                    </div>
+                                </div>
+                                <div class="litecoin-monitor">
+                                    <div class="d-flex mt-2">
+                                        <p class="col text-secondary" >LTC</p>
+                                        <div class="currancy-icon text-center" style="height: 30px;width: 30px;">
+                                            <!-- <i class="fab fa-ethereum fa-lg" style="padding-top: 6px"></i>
+                                             -->
+                                             <img src = "./icons/litecoin-889.svg" class="svg-icon"/>
+
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="col">Litecoin</p>
+                                    </div>
+                                </div>
+                                <div class="dash-monitor">
+                                    <div class="d-flex mt-2">
+                                        <p class="col text-secondary" >Dash</p>
+                                        <div class="currancy-icon text-center" style="height: 30px;width: 30px;">
+                                            <!-- <i class="fab fa-dyalog fa-lg" style="padding-top: 6px"></i> -->
+                                            <img src = "./icons/dash-885.svg" class="svg-icon"/>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="col">Dash</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="d-flex pt-3">
+                                <div class="spinner-section">
+                                    <div class="d-flex justify-content-between pt-5">
+                                        <i class="fas fa-circle-notch fa-2x col"></i>
+                                        <h4 class="col">81%</h4>
+                                        <p class="text-secondary col">Bitcoin</p>
+                                        <p class="col d-flex justify-content-end text-secondary">:</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between pt-4">
+                                        <i class="fas fa-circle-notch fa-2x col"></i>
+                                        <h4 class="col">81%</h4>
+                                        <p class="text-secondary col">Bitcoin</p>
+                                        <p class="col d-flex justify-content-end text-secondary">:</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between pt-4">
+                                        <i class="fas fa-circle-notch fa-2x col"></i>
+                                        <h4 class="col">81%</h4>
+                                        <p class="text-secondary col">Bitcoin</p>
+                                        <p class="col d-flex justify-content-end text-secondary">:</p>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="amount-sending">
+                                    <div class="d-flex justify-content-center pt-4">
+                                        <p class="">Wallet</p>
+                                        <button class="btn wallet-btn">BTC</button>
+                                        <p>Amount</p>
+                                        <input type="text" class="form-control amount-btn"aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                    </div>
+                                    
+                                    <div class="input-group input-group-sm m-3" style="width:219px;padding-left:2px">
+                                        <span >Send to</span>
+                                        <input type="text" class="form-control sendto-box" style="margin-left: 15px;" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                    </div>
+                                    
+                                    <div class="d-flex bd-highlight">
+                                        <div class="p-2 flex-grow-1 bd-highlight text-secondary text-center">
+                                            <p>Recieve Bitcoin</p>
+                                        </div>
+                                        <div class="p-2 bd-highlight">
+                                            <button class="recieve-btn btn text-white">send</button>
+                                        </div>
+                                      </div>
+                                </div>
+
+                                
+                            </div>
+
+
+
+                        </div>
+                        
+                      </div>
+                      
+                      <!-- middle section last-->
+                      <div class=" d-flex bd-highlight ">
+
+                        <div class="pt-2 pb-2 w-75 bd-highlight" style="padding-left: 14px; padding-right: 13px;">
+                            
+
+                        <div class="col transaction-board pb-2">
+                                    
+                            <div class="d-flex bd-highlight pt-3 pb-3">
+                                <div class="p-2 flex-grow-1 bd-highlight">
+                                    <h5>Bitcoin Chart</h5>
+                                </div>
+                                <div class="p-2 bd-highlight d-flex" style="font-weight: 600;">
+                                    <button class="text-secondary btn graph-btn">1m</button>
+                                    <button class="text-secondary btn graph-btn">3m</button>
+                                    <button class="text-secondary btn graph-btn">6m</button>
+                                    
+                                    <button class="text-secondary btn graph-btn">1y</button>
+                                    
+                                    <button class="text-secondary btn graph-btn">All</button>
+
+                                </div>
+                            </div>
+                            <div class="col">
+                                <canvas id="myChart"></canvas>
+                            </div>
+
+                        </div>
+
+
+                        </div>
+
+
+
+
+                        
+                        <div class="pt-2 flex-shrink-1 bd-highlight">
+
+
+
+                            <div class="col markets-board pb-2">
+                                
+                                <div class="d-flex bd-highlight pt-3 pb-3">
+                                    <div class="p-2 flex-grow-1 bd-highlight">
+                                        <h5>Markets</h5>
+                                    </div>
+                                    <div class="p-2 bd-highlight d-flex" style="font-weight: 600; font-size: 12px;">
+                                        <p class="fw-bold">BTC</p>
+                                        <p class="mx-2 text-secondary">USD</p>
+                                        <p class="text-secondary">EUR</p>
+                                    </div>
+                                </div>
+        
+        
+        
+                                <div class="markets-list pb-1  mb-2">
+
+                                    <div class="d-flex bd-highlight markets-list-cells" style="height: 73px;">
+                                        <div class="d-flex bd-highlight mb-3">
+                                            <div class="me-auto p-2 bd-highlight">
+                                                <div class="d-flex text-secondary" style="font-size: 12px; font-weight: 600;">
+                                                    <p>DASH/EUR</p>
+                                                    <p style="padding-left: 5px;">1.93%</p>
+                                                </div>
+                                                <div class="d-flex" style="">
+                                                    <h6>0.0834</h6>
+                                                    <h6 style="padding-left: 5px;color: #bcbcbe">EUR</h6>
+                                                </div>
+                                            </div>
+                                            <div class="p-2 bd-highlight" style="position: relative;"><img src="./icons/polyline.svg" class="polyline-icon"></div>
+                                          </div>
+                                    </div>
+
+                                    <div class="d-flex bd-highlight markets-list-cells" style="height: 73px;">
+                                        <div class="d-flex bd-highlight mb-3">
+                                            <div class="me-auto p-2 bd-highlight">
+                                                <div class="d-flex text-secondary" style="font-size: 12px; font-weight: 600;">
+                                                    <p>DASH/EUR</p>
+                                                    <p style="padding-left: 5px;">1.93%</p>
+                                                </div>
+                                                <div class="d-flex" style="">
+                                                    <h6>0.0834</h6>
+                                                    <h6 style="padding-left: 5px;color: #bcbcbe">EUR</h6>
+                                                </div>
+                                            </div>
+                                            <div class="p-2 bd-highlight" style="position: relative;"><img src="./icons/polyline.svg" class="polyline-icon"></div>
+                                          </div>
+                                    </div>
+                                    
+
+
+                                    <div class="d-flex bd-highlight markets-list-cells" style="height: 73px;">
+                                        <div class="d-flex bd-highlight mb-3">
+                                            <div class="me-auto p-2 bd-highlight">
+                                                <div class="d-flex text-secondary" style="font-size: 12px; font-weight: 600;">
+                                                    <p>DASH/EUR</p>
+                                                    <p style="padding-left: 5px;">1.93%</p>
+                                                </div>
+                                                <div class="d-flex" style="">
+                                                    <h6>0.0834</h6>
+                                                    <h6 style="padding-left: 5px;color: #bcbcbe">EUR</h6>
+                                                </div>
+                                            </div>
+                                            <div class="p-2 bd-highlight" style="position: relative;"><img src="./icons/polyline.svg" class="polyline-icon"></div>
+                                          </div>
+                                    </div>
+
+
+                                    <div class="d-flex bd-highlight markets-list-cells" style="height: 73px;">
+                                        <div class="d-flex bd-highlight mb-3">
+                                            <div class="me-auto p-2 bd-highlight">
+                                                <div class="d-flex text-secondary" style="font-size: 12px; font-weight: 600;">
+                                                    <p>DASH/EUR</p>
+                                                    <p style="padding-left: 5px;">-0.1%</p>
+                                                </div>
+                                                <div class="d-flex" style="">
+                                                    <h6>0.0834</h6>
+                                                    <h6 style="padding-left: 5px;color: #bcbcbe">EUR</h6>
+                                                </div>
+                                            </div>
+                                            <div class="p-2 bd-highlight" style="position: relative;"><img src="./icons/polyline.svg" class="polyline-icon"></div>
+                                          </div>
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                                
+        
+        
+        
+        
+                            </div>
+
+
+                        </div>
+                      </div>
+                      <!-- middle section last-->
+
+                  </div>
+                  <!-- middle section -->
+
+
+
+
+
+
+
+                  <!-- end section  -->
+                  <div class="col-md-4">
+                      <!-- end section head  -->
+                    <div class="d-flex flex-row-reverse bd-highlight" style="padding-bottom:65px;">
+                        <div class="p-2 bd-highlight profile-icon ">
+                            <div class="text-center" style="height: 16px;width: 21px;"><i class="fas fa-user-alt fa-lg text-secondary" style="padding-top: 6px"></i></div>
+                        </div>
+                        <div class="p-2 bd-highlight mx-4">
+                            <h6>Nikita Restive</h6>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <i class="fas fa-bars fa-lg text-secondary"></i>
+                        </div>
+                    </div>
+                    <!-- end section head  -->
+                    
+
+
+                    <!-- end section body  -->
+
+                    <div class="col transaction-board pb-2">
+                                
+                        <div class="d-flex bd-highlight pt-3 pb-3">
+                            <div class="p-2 flex-grow-1 bd-highlight">
+                                <h6>Transactions</h6>
+                            </div>
+                            <div class="p-2 bd-highlight d-flex" style="font-weight: 600;">
+                                <p class="fw-bold">ALL</p>
+                                <p class="mx-4 text-secondary">SEND</p>
+                                <p class="text-secondary">RECENT</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col transaction-list pb-1  mb-2">
+                            <div class="d-flex bd-highlight">
+                                <div class="pt-2 flex-grow-1 bd-highlight">
+                                    <p>16:23, 12 dec 2018</p>
+                                </div>
+                                <div class="p-2 bd-highlight d-flex">
+                                    <i class="fas fa-long-arrow-alt-right pt-1" style="color:#7ac231"></i>
+                                    <p class="mx-2">0.009</p>
+                                    <p >BTC</p>
+                                </div>
+                                
+                            </div>
+                            <p class=" text-secondary">fas;ldkfhsadfjasdldkjfaskdjfasdf</p>
+                        </div>
+                        
+
+                        <div class="col transaction-list pb-1  mb-2">
+                            <div class="d-flex bd-highlight">
+                                <div class="pt-2 flex-grow-1 bd-highlight">
+                                    <p>16:23, 12 dec 2018</p>
+                                </div>
+                                <div class="p-2 bd-highlight d-flex">
+                                    <i class="fas fa-long-arrow-alt-right pt-1" style="color:#7ac231"></i>
+                                    <p class="mx-2">0.009</p>
+                                    <p >BTC</p>
+                                </div>
+                                
+                            </div>
+                            <p class=" text-secondary">fas;ldkfhsadfjasdldkjfaskdjfasdf</p>
+                        </div>
+
+
+                        <div class="col transaction-list pb-1  mb-2">
+                            <div class="d-flex bd-highlight">
+                                <div class="pt-2 flex-grow-1 bd-highlight">
+                                    <p>16:23, 12 dec 2018</p>
+                                </div>
+                                <div class="p-2 bd-highlight d-flex">
+                                    <i class="fas fa-long-arrow-alt-left pt-1" style="color:#d11616"></i>
+                                    <p class="mx-2">0.009</p>
+                                    <p >BTC</p>
+                                </div>
+                                
+                            </div>
+                            <p class=" text-secondary">fas;ldkfhsadfjasdldkjfaskdjfasdf</p>
+                        </div>
+
+
+                        <div class="col transaction-list pb-1  mb-2">
+                            <div class="d-flex bd-highlight">
+                                <div class="pt-2 flex-grow-1 bd-highlight">
+                                    <p>16:23, 12 dec 2018</p>
+                                </div>
+                                <div class="p-2 bd-highlight d-flex">
+                                    <i class="fas fa-long-arrow-alt-left pt-1" style="color:#d11616"></i>
+                                    <p class="mx-2">0.009</p>
+                                    <p >BTC</p>
+                                </div>
+                                
+                            </div>
+                            <p class=" text-secondary">fas;ldkfhsadfjasdldkjfaskdjfasdf</p>
+                        </div>
+
+
+
+                        <div class="col transaction-list pb-1  mb-2">
+                            <div class="d-flex bd-highlight">
+                                <div class="pt-2 flex-grow-1 bd-highlight">
+                                    <p>16:23, 12 dec 2018</p>
+                                </div>
+                                <div class="p-2 bd-highlight d-flex">
+                                    <i class="fas fa-long-arrow-alt-right pt-1" style="color:#7ac231"></i>
+                                    <p class="mx-2">0.009</p>
+                                    <p >BTC</p>
+                                </div>
+                                
+                            </div>
+                            <p class=" text-secondary">fas;ldkfhsadfjasdldkjfaskdjfasdf</p>
+                        </div>
+
+                    </div>
+                    <!-- end section body  -->
+                    
+
+
+
+                    <!-- news section last -->
+                    <div class="col transaction-board pb-2 mt-3">
+                        <div class="d-flex flex-column bd-highlight mb-2">
+                            <div class="pt-2 bd-highlight">
+                                <h6>News</h6>
+                            </div>
+                            <div class="pt-2 bd-highlight">
+                                <p>Value cash annouces WER to Reform E-commerce with its pot protocol</p>
+                                <p class="text-secondary mb-0">16:23, 12 dec 2018</p>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- news section last -->
+
+                  </div>
+                  <!-- end section  -->
+
+                  
+              </div>
+
+        </div>
+      </div>
+        <!-- rest item  -->
+
+
+
+
+
+    <!-- bootstrap files  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- for google chart  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const labels = [
+          '25 Oct',
+          '6 nov',
+          '20 nov',
+          '4 dec',
+          '18 dec',
+          '1 June',
+        ];
+      
+        const data = {
+          labels: labels,
+          datasets: [{
+            label: 'My First dataset',
+            backgroundColor: '#7ac231',
+            borderColor: '#7ac231',
+            data: [0, 5, 10, 15, 20],
+            width: "60%",
+          }]
+        };
+      
+        const config = {
+          type: 'line',
+          data: data,
+          options: {}
+        };
+      </script>
+
+        <script>
+        const myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+        );
+        </script>
+</body>
+</html>

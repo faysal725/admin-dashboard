@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+/* @font-face {
+    font-family: 'cosmata';
+    src: url('./font/Demo_Fonts/Fontspring-DEMO-cosmata-regular.otf');
+  } */
+
+body{
+    background-color: rgba(24,25,29,255);
+    color:rgba(239,239,240,255);
+    font-family: 'Jost', sans-serif;
+    ;
+}
+
+.side-bar{
+    background-color: rgba(29,32,36,255);
+    height:955px;
+    flex-direction: column;
+}
+
+.search-bar{
+    background-color: rgba(42,43,49,255);
+    border: none;
+}
+
+
+.menu-items{
+    height: 66px;
+    padding-top: 8px;
+}
+
+.menu-items i{
+    
+    padding-top:17px
+}
+
+.menu-items:hover{
+
+    
+    background-color: rgba(42,43,49,255);
+}
+
+.support-btn{
+    background-color: rgba(42,43,49,255);
+    color:rgba(239,239,240,255);
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+.messaging{
+    background-color: rgba(42,43,49,255);
+    width: 47px;
+    height: 50px;
+    padding-top: 8px;
+    position: relative;
+}
+
+
+.messaging p{
+    position: absolute;
+    background-color: #7ac231;
+    border-radius: 20px;
+    width: 19px;
+    height: 18px;
+    font-size: 12px;
+    top: -7px;
+    left: 37px;
+}
+
+.plus-btn{
+    border: 2px solid grey;
+    height: 40px;
+    color: rgba(63,64,72,255);
+    font-weight: bold;
+}
+
+
+.overview-btn{
+    color:rgba(128, 128, 128, 0.63);
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.overview-btn:hover{
+    background-color: rgba(42,43,49,255);
+}
+
+.overview-board{
+    background-color: rgba(42,43,49,255);
+    border-radius: 5px;
+}
+
+
+.overview-board p{
+    font-weight: 600;
+}
+
+.overview-board h1{
+    font-weight: 300;
+}
+
+.wallets{
+    background-color: rgba(37,37,41,255);
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+.btn-buy{
+    color: white;
+    border-radius: 20px;
+    border:2px solid #7ac231;
+    font-weight: 500;
+    width: 70px;
+}
+
+.btn-buy:hover{
+    background-color: #7ac231;
+}
+
+.wallets-btn{
+    color: #7cb148;
+    font-weight: 500;
+}
+
+.wallets-btn:hover{
+    color: white
+}
+
+.my-wallets p{
+    font-weight: 400;
+    /* width: 110px; */
+}
+
+.btc-monitor{
+    background-color: #7ac231;
+    width: 171px;
+    border-radius:4px;
+    margin-right:10px;
+}
+
+.currancy-icon{
+    background-color: rgba(88, 88, 88, 0.322);
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+
+#button-addon2 {
+    position: absolute;
+    top:-1px;
+    color:rgba(128, 128, 128, 0.63);;
+    right: -5px;
+
+
+}
+
+
+.ethereum-monitor{
+    background-color: rgba(42,43,49,255);
+    
+    margin-right:10px;
+    border-radius: 6px;
+    width: 110px;
+
+}
+
+.litecoin-monitor{
+    background-color: rgba(42,43,49,255);
+    
+    margin-right:10px;
+    border-radius: 6px;
+    width: 110px;
+
+}
+
+
+.dash-monitor{
+    background-color: rgba(42,43,49,255);
+    
+    margin-right:10px;
+    border-radius: 6px;
+    width: 110px;
+
+}
+
+
+.spinner-section{
+    /* width: 267px; */
+    background-color: rgba(42,43,49,255);
+    /* height: 273px; */
+    border-radius: 7px;
+}
+
+.spinner-section i{
+    color:#7ac231
+}
+
+
+.svg-icon{
+    /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+    /* filter: invert(55%) sepia(100%); */
+    filter: brightness(0) invert(1);
+    height: 15px;
+    stroke-width:"6";
+}
+
+
+
+.amount-sending{
+    width: 388px;
+    margin-left: 15px;
+    background-color: rgba(29,32,36,255);
+    height: 273px;
+    border-radius: 7px;
+}
+
+.profile-icon{
+    background-color: rgba(88, 88, 88, 0.322);
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+
+.transaction-board{
+    background-color: rgba(29,32,36,255);
+    border-radius: 5px;
+}
+.transaction-list{
+    background-color: rgba(42,43,49,255);
+        border-radius: 5px;
+
+}
+
+
+.markets-board{
+    background-color: rgba(42,43,49,255);
+    border-radius: 5px;
+    width: 295px;
+
+}
+
+.markets-list{
+        border-radius: 5px;
+}
+
+
+
+.markets-list-cells{
+    border-bottom: 1px solid rgba(88, 88, 88, 0.322);;
+}
+
+
+
+.polyline-icon{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    /* filter: invert(55%) sepia(100%); */
+    position: absolute;
+    left: 76px;
+    /* filter: brightness(0) invert(1); */
+    height:46px;
+    stroke-width:"6";
+}
+
+
+
+
+
+
+
+
+
+
+.graph-btn{
+    border-radius: 17px;
+    font-weight: 600;
+}
+
+.graph-btn:hover{
+    
+    background-color: rgba(204, 204, 204, 0.575);
+    color:white !important;
+}
+
+.wallet-btn{
+    color: white;
+    background-color: rgba(42,43,49,255);
+    height: 35px;
+    margin-top: 4px;
+    width: 54px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.amount-sending p{
+    padding-top: 8px;
+}
+
+.sendto-box{
+    background-color: rgba(42,43,49,255);
+    border:none;
+}
+
+
+.amount-btn{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(42,43,49,255);
+    border: none;
+    width: 75px;
+}
+
+.recieve-btn{
+    border: 2px solid gray;
+    border-radius: 19px;
+}
+
+.recieve-btn:hover{
+    background-color: rgba(204, 204, 204, 0.575);
+}
